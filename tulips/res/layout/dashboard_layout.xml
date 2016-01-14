@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="#FFFFFF">
+
+    <com.example.shop.DashboardLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <Button android:id="@+id/dashboard_btn_shopping"
+                style="@style/DashboardButton"
+                android:text="@string/btn_shopping"
+                android:drawableTop="@drawable/ic_dashboard_shopping"
+                android:onClick="onClickShopping"/>
+        <Button android:id="@+id/dashboard_btn_basket"
+                style="@style/DashboardButton"
+                android:text="@string/btn_basket"
+                android:drawableTop="@drawable/ic_dashboard_basket" />
+        <Button android:id="@+id/dashboard_btn_checkout"
+                style="@style/DashboardButton"
+                android:text="@string/btn_checkout"
+                android:drawableTop="@drawable/ic_dashboard_checkout" />
+        <Button android:id="@+id/dashboard_btn_delivery"
+                style="@style/DashboardButton"
+                android:text="@string/btn_delivery"
+                android:drawableTop="@drawable/ic_dashboard_delivery" />
+    </com.example.shop.DashboardLayout>
+
+</LinearLayout>
